@@ -33,7 +33,8 @@
 
 $ cd ruby_on_rails
 $ gem install rake
-$ gem install bundler && bundle install
+$ gem install bundler 
+$ gem bundle install
 
 $ rake db:migrate
 ```
@@ -61,3 +62,7 @@ http://localhost:3000/rails/info/routes
 - Login:
     - Email: admin@admin.com
     - Password: admin123
+
+
+
+ref :https://api.rubyonrails.org/
